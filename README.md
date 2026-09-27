@@ -33,6 +33,8 @@ Do small orders systematically look worse in margin terms than large ones? Which
 
 **2. The 2017 profit decline was localized not a company-wide downturn.**  Profit fell in Central (−63%) and South (−50%) regions, while East (+65%) and West (+82%) kept growing. There is no evidence of a general downturn.
 
+<p align="center"><img src="images/region_by_category.png" width="600" alt="Discount vs Profit"></p>
+
 **3. Discounting has a hard threshold at 20%.** Average margin swings from +26.7% on orders discounted ≤20% to −91.5% above 30%. The effect is a sudden break, not a gradual decline, which a simple correlation would miss.
 
 <p align="center"><img src="images/discount_vs_profit.png" width="600" alt="Discount vs Profit"></p>
@@ -40,6 +42,9 @@ Do small orders systematically look worse in margin terms than large ones? Which
 **4. The safe discount level depends on price tier.** High-priced subcategories (machines, bookcases, tables) become loss making above 10–11% discount, while low-priced items tolerate 20–30%. A single company-wide discount cap is therefore the wrong tool.
 
 **5. Central is the most structurally fragile region.** Its top three customers account for 47.6% of regional profit despite being just 0.5% of its customer base. Besides, average shipping times run roughly double those of other regions.
+
+<p align="center"><img src="images/customer_concentration.png" width="600" alt="Discount vs Profit"></p>
+
 
 **6. West region is the company's top performer**: highest sales, highest profit, lowest average discount and a profit margin roughly double Central's. A natural benchmark for what "healthy" regional performance looks like elsewhere.
 
