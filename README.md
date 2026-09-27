@@ -43,6 +43,9 @@ Do small orders systematically look worse in margin terms than large ones? Which
 
 **6. West region is the company's top performer**: highest sales, highest profit, lowest average discount and a profit margin roughly double Central's. A natural benchmark for what "healthy" regional performance looks like elsewhere.
 
+<p align="center"><img src="images/region_profit_margin.png" width="600" alt="Discount vs Profit"></p>
+
+
 **7. Pareto profitability** The top 20% of customers generate 80% of total profit leading to a risk of reliance. 
 
 **8. Some very active customers destroy value** A segment of 137 customers (17% of the customer base) with high activity and low profit buys almost as often as top customers while averaging a $189 loss each.
