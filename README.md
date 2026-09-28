@@ -39,7 +39,7 @@ Do small orders systematically look worse in margin terms than large ones? Which
 
 <p align="center"><img src="images/discount_vs_profit.png" width="500" alt="Discount vs Profit"></p>
 
-**4. The safe discount level depends on price tier.** High-priced subcategories (machines, bookcases, tables) become loss making above 10–11% discount, while low-priced items tolerate 20–30%. A single company-wide discount cap is therefore the wrong tool.
+**4. The safe discount level depends on price tier.** High-priced subcategories (chairs, bookcases, tables) become loss making above 10–11% discount, while low-priced items tolerate 20–30%. A single company-wide discount cap is therefore the wrong tool.
 
 <p align="center"><img src="images/loss_rate_heatmap.png" width="500" alt="Discount vs Profit"></p>
 
