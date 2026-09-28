@@ -14,16 +14,16 @@ The dataset covers order-level sales, discounts, profit, shipping and customer d
 
 The analysis is structured around different business sections:
 
-**A. Discounting and profitability** 
+- **A. Discounting and profitability** 
 How much discount can the business afford before it erodes margin? Does that threshold depend on product price? Which subcategories can safely sustain deep discounts?
-**B. Time trends** 
+- **B. Time trends** 
 Is the business growing in a healthy and stable way? Is there a recurring seasonal pattern? Is there a decline driven by a category, discounting or customer churn?
 Does the trend vary by region?
-**C. Regional performance** 
+- **C. Regional performance** 
 Which regions are the most profitable and the most at risk? Does any region show a structural or recurring loss in a specific category? Are there operational factors that compound a region's financial risk?
-**D. Customer value**
+- **D. Customer value**
 Where does profitability really come from? Are there customers who generate large sales volumes but negative profit? Does a recency/frequency/monetary (RFM) segmentation reveal customer segments?
-**E. Order-level economics**. How should individual order profitability be read? How should profit margin be interpreted alongside absolute profit at the order level?
+- **E. Order-level economics**. How should individual order profitability be read? How should profit margin be interpreted alongside absolute profit at the order level?
 Do small orders systematically look worse in margin terms than large ones? Which products or orders are the best candidates for a pricing or discount review?
 
 
@@ -63,25 +63,25 @@ Do small orders systematically look worse in margin terms than large ones? Which
 ## Methodology
 
 - **Data quality and cleaning**
-• Removed 2 exact duplicates
-• Investigated suspicious rows (same order + product): kept as legitimate separate lines since quantity, sales and profit differ
-• 5 rows with missing financials, all from a single product with no other records. Dropped rather than imputed to avoid fabricating financial figures
-• Outliers detected with the IQR rule and kept deliberately: large sales, profit and discount values are real high-value orders understood as a finding
-• Logical validations: non-positive sales, quantities, discount range and postal code that should belong to a specific city/state
+* Removed 2 exact duplicates
+* Investigated suspicious rows (same order + product): kept as legitimate separate lines since quantity, sales and profit differ
+* 5 rows with missing financials, all from a single product with no other records. Dropped rather than imputed to avoid fabricating financial figures
+* Outliers detected with the IQR rule and kept deliberately: large sales, profit and discount values are real high-value orders understood as a finding
+* Logical validations: non-positive sales, quantities, discount range and postal code that should belong to a specific city/state
 
 - **Feature engineering**
-• Move the object to its correspondent object type (datetime features)
-• Build extra data crossing existing variables (shipping time variable)
-• Obtain data from existing data (date parts (year, month, quarter, weekday))
-• Create line-level and order-level profit margin
-• Set discount bands derived from quantile-based binning
+* Move the object to its correspondent object type (datetime features)
+* Build extra data crossing existing variables (shipping time variable)
+* Obtain data from existing data (date parts (year, month, quarter, weekday))
+* Create line-level and order-level profit margin
+* Set discount bands derived from quantile-based binning
 
 - **Analysis**
-• Discount behaviour across products and categories
-• Time series by category, sub-category, region and segment
-• Regional profiling: sales, profit, margin, discount, customer concentration, shipping time
-• Customer analytics: Pareto (80/20) and RFM segmentation
-• Price-tier analysis: loss rate by sub-category per discount band
+* Discount behaviour across products and categories
+* Time series by category, sub-category, region and segment
+* Regional profiling: sales, profit, margin, discount, customer concentration, shipping time
+* Customer analytics: Pareto (80/20) and RFM segmentation
+* Price-tier analysis: loss rate by sub-category per discount band
 
 
 ## Why superstore sample analysis? 
