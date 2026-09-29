@@ -138,4 +138,5 @@ Knowing what an analysis *cannot* say is as important as what it can. These are 
 ## Author
 
 Nuria Benítez Peñarando
-https://www.linkedin.com/in/nuria-ben%C3%ADtez-pe%C3%B1arando-509429297/?isSelfProfile=true
+www.linkedin.com/in/nuria-benítez-peñarando-509429297
+
